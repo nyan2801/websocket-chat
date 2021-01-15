@@ -2,6 +2,7 @@ var connection = new WebSocket(【通信を行うURL】);
 
 //通信が接続された場合
 connection.onopen = function(e) {
+	//ID生成
 	ver id = Math.random().toString(36).slice(-8);
 
 };
